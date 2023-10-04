@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <header className="w-10/12 mx-auto mt-6 pb-2 border-b-2">
             <nav className="flex justify-between ">
-                <h1 className="text-3xl font-semibold">Home</h1>
+                <Link href={'/'} className="text-3xl font-semibold">Home</Link>
 
                 <div className="flex gap-6 font-semibold">
                     <NavLink routeLink={'/link1'} routeName={'Link1'}></NavLink>
